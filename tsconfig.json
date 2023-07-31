@@ -1,0 +1,23 @@
+{
+  /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    /* Completeness */
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "baseUrl": ".",
+    "paths": {
+      "@app/components/*": ["src/components/"],
+      "@app/views/*": ["src/views/"],
+      "@app/assets/*": ["src/assets/*"],
+      "@app/routes/*": ["src/routes/*"],
+      "@app/services/*": ["src/services/*"],
+      "@app/theme/*": ["src/theme/*"],
+      "@app/utils/*": ["src/utils/*"]
+    },
+    "moduleResolution": "node",
+    "removeComments": false
+  }
+}
