@@ -4,12 +4,9 @@
 </p>
 
 # Note :- 
-
-## 1. Currently This Application Works only as mobile application.
-
-## 2. Currently this app is tessted only for Android mobile devices. If you want to use this application for IOS Mobile devices you need to configure all that dependencies in IOS.
-
-## 3. Currently I embbed this music file in this application, you can find them in [**src/assets/audio**] directory.
+1. Currently This Application Works only as mobile application.
+2. Currently this app is tessted only for Android mobile devices. If you want to use this application for IOS Mobile devices you need to configure all that dependencies in IOS.
+3. Currently I embbed this music file in this application, you can find them in [**src/assets/audio**] directory.
 
 Not sure where to start?
 
